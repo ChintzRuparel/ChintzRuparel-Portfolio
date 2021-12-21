@@ -1,67 +1,231 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog || Chintan Ruparel</title>
   <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2160/2160251.png">
-<style>
 
-body, html {
-  height: 100%;
-  margin: 0;
-}
+  <!---Bootstrap Include file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!--End of Boostrap Include Files-->
 
-.bgimg {
-  background-image: url('https://images.unsplash.com/photo-1633415575466-4021531f2124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a style="font-family: 'Source Sans 3', sans-serif;" class="navbar-brand" href="/index.html">
+        <img src="https://cdn-icons-png.flaticon.com/512/2160/2160251.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Chintan Ruparel 
+      </a>
+      
+    <ul class="nav">
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+      <li class="nav-item">
+      <a style="font-family: 'Source Sans 3', sans-serif;"  class="nav-link" href="/projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+      <a style="font-family: 'Source Sans 3', sans-serif;"  class="nav-link" href="/blog.html">Blog </a>
+      </li>
+    </ul>
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+      <span   class="navbar-text">
+        "Design is intelligence made visible"
+      </span>
+    </div>
+  </nav>
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
+  
+</head>
 <body>
+  <br><br>
+  <center>
+  <img style="width: 200px; height: 200px;" src="/images/undraw_publish_article_re_3x8h.svg">
+  </center>
+  <br>
 
-<div class="bgimg">
-  <div class="topleft">
-    <p>CHINTAN RUPAREL</p>
+
+<!--
+  blog post one starts 
+-->
+<center>
+  <div class="card" style="width: 70%; border-radius: 12px; font-family: 'Oxygen', sans-serif;">
+    <div class="card-body">
+      <h4 class="card-title">Corrections in the Market </h4>
+      <p class="card-text">
+        In investing, a correction is a decline of 10% or more in the price of a security from its most recent peak. Corrections can happen to individual assets, like an individual stock or bond, or to an index measuring a group of assets. 
+       <br>  Explaining how temporary pullbacks and corrections can hamper your compounding dream
+      </p>
+    </div>
+    <div class="card-body">
+      
+      <!--MODAL START-->
+      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+      Check it Out 
+    </button>
+
+    <!-- Modal -->  
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Corrections in the Stock Market</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div style="text-align: left;" class="modal-body" id="post1">
+            <b>
+              <h4>
+            Correction<br></h4></b>
+            /kəˈrɛkʃ(ə)n/<br>
+            <i>noun</i><br>
+            1. the action or process of correcting something. <br><br>
+            2. Used to introduce an amended version of something one has just said.<br> <br>
+
+            Here I’m referring to a stock market correction. After the enormous rally in almost all months of 2021. The party came to an end by a sudden fall in the markets. The born of a new variant in South Africa shocked the world and rattled the financial word with uncertainty and pessimism. United States inflation at a 39-year high. Major news which might led to uncertainty fled through news which created havoc among traders and investors. 
+            <br>
+            The broader market index for India Nifty50 rallied from 15,000 to 18,600 with certain small pull backs. While it is always said that corrections are always steeper on graph and sudden in time. Everyone knew that a correction was inevitable, It was going to come and create panic but a very few were able to time the correction. Here’s a research by Goldman Sachs which show the corrections and month it took to recover.
+
+            <br>
+            <center>
+
+            <img style="width: 50%; height: 50%;" src="/images/market corrections.1582837720614.png" alt="corrections by goldman sachs ">
+            
+          </center>
+
+          <br>
+          
+          Foreign Institutional Investors (FII) were on a continuous selling spree. Domestic Institutional Investors were on a buying spree. There was one more set of participants in the market - The new lads (Retail Investors). For the FII’s and DII’s correction was a discount at the mall while the new age investors who had never seen such a steep correction were really stunned by the fall because of tender their experience was.
+          <br><br>
+
+          Corrections have a nature of creating panic which makes it looks like this is the end of the world but the steeper the corrections faster will be the bounce back. Staying Invested is an art.  Seeing such wild swings in the world of Finance and staying calm needs a nerve of steel. Great Wealth can be compounded by doing nothing. Stock Market is 10% Buying, 10% Selling and 80% doing nothing. 
+          <br><br>
+
+          The whole point of publishing this article is to educate everyone that temporary pull backs and corrections are common in the Stock Market. Corrections and Consolidations are good from the long term perspective of the market. The bulls will come back and take charge but you (Yes you impatient) gotta keep your calm
+          <br><br>
+
+          <b>Compounding Wealth is important then earning wealth. All pessimism is permanent. Stay Invested.</b>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--MODAL START-->
+
+    </div>
   </div>
-  <div class="middle">
-    <h1>COMING SOON</h1>
-    <hr>
-    <p></p>
+  </center>
+  <!--blog post one ends -->
+
+
+
+<br>
+
+<!--
+  blog post two starts 
+-->
+<center>
+  <div class="card" style="width: 70%; border-radius: 12px; font-family: 'Oxygen', sans-serif;">
+    <div class="card-body">
+      <h4 class="card-title">Who controls the Market? </h4>
+      <p class="card-text">
+        Understanding how markets work is of utmost importance. The functioning of the markets is quick and efficient.
+        Here's a post explaining Who Controls the Stock Market!
+      </p>
+    </div>
+    <div class="card-body">
+      
+      <!--MODAL START-->
+      <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+      Check it Out 
+    </button>
+
+    <!-- Modal -->  
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Who controls the Stock Market?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div style="text-align: left;" class="modal-body" id="post1">
+            <h4><b>Who Controls the stock Market?</b></h4>
+            
+            During the working hours of the Stock Market that's from 9 to 3:30. There are basically two groups of people during this time. One are the Bulls, Other are the bears. Bulls are that group of people that actually want the Stocks to advance, And Bears that group of people who bet on the fall of the Stocks. During the working hours of the Stock Market the bulls and bears fight continuously. And By the end of the day there will be either of these 2 results. When Bulls win, The market gains momentum and is rising. When Bears Win, The markets slides and it produces losses to stocks in terms of Market Cap. And when there's a tie like there are no winners then the market flat. 
+            <br>
+            <center>
+
+            <img style="width: 50%; height: 50%;" src="https://images.unsplash.com/photo-1612010167108-3e6b327405f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="">
+            
+          </center>
+
+          <br>
+            So Lets see how does movement of prices happen - Imagine a Stock of INR 100 and you have a news that this company is going to sign a deal with  a foreign company. And according to you, the predicted target for your trade is INR 40. Which means that you will have a profit of INR 40 per share. So you might be ready to even give INR 105 for that share and the seller will sell his stock at INR 105. So that's what becomes the market price and that's how the prices of Stocks fall or rise.  
+          
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--MODAL START-->
+
+    </div>
   </div>
-  <div class="bottomleft">
-    <p>BLOGS COMING UP SOON</p>
+  </center>
+  <!--blog post two ends -->
+
+
+
+
+  <!--Footer-->
+<hr>
+<center>
+  <footer>
+    <div class="card-body">
+    <h5 style="font-family: 'Oxygen', sans-serif;" class="card-title">Reach me At </h5>
+    <p class="card-text">
+     <a href="https://github.com/ChintzRuparel">
+         <img style="width: 40px; height: 40px;"  src="/images/github.png" >
+     </a>
+
+     <a href="https://twitter.com/ChintzRuparel">
+         <img style="width: 40px; height: 40px;" src="/images/twitter.png">
+     </a>
+
+     <a href="https://www.instagram.com/cm_ruparell/">
+         <img style="width: 40px; height: 40px;" src="/images/insta.png">
+     </a>
+
+     <a href="https://chintzruparel.github.io/TWODS-Capital/">
+         <img style="width: 40px; height: 40px;" src="/images/website.png" alt="">
+     </a>
+
+
+
+    </p>
+    <p style="font-family: 'Oxygen', sans-serif;" class="card-text">Feel Free to Check em out </p>
+    <a style="text-decoration: none;" href="mailto:chintz0952@gmail.com">Mail Me</a>
   </div>
+  
 </div>
+
+</footer>  
+</center>
+
+
 
 </body>
 </html>
-
