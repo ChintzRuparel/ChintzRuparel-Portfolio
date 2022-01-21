@@ -30,53 +30,53 @@ Blog 1
     How Does the Internet Work?
 
 
-https://www.hp.com/us-en/shop/tech-takes/how-does-the-internet-work
+                        https://www.hp.com/us-en/shop/tech-takes/how-does-the-internet-work
 
 
-There are two main concepts that are fundamental to the way the Internet functions: packets and protocols.
+                        There are two main concepts that are fundamental to the way the Internet functions: packets and protocols.
 
-The internet is a world wide computer network that transmits variety of data and media across all connected devices. It works by using a packet routing network that follows Internet Protocol(IP) and Transport Control Protocol (TCP).
+                        The internet is a world wide computer network that transmits variety of data and media across all connected devices. It works by using a packet routing network that follows Internet Protocol(IP) and Transport Control Protocol (TCP).
 
-All data sent over the internet is called a message. Once the trigger to send a message is triggered, Messages are broken into tiny bits called packets. 
+                        All data sent over the internet is called a message. Once the trigger to send a message is triggered, Messages are broken into tiny bits called packets. 
 
-What is a Packet? 
+                        What is a Packet? 
 
-In networking, a packet is a small segment of a larger message. Each packet contains both data and information about that data. The information about the packet's contents is known as the "header," and it goes at the front of the packet so that the receiving machine knows what to do with the packet.
+                        In networking, a packet is a small segment of a larger message. Each packet contains both data and information about that data. The information about the packet's contents is known as the "header," and it goes at the front of the packet so that the receiving machine knows what to do with the packet.
 
-What is a Protocol?
+                        What is a Protocol?
 
-Connecting two computers, both of which may use different hardware and run different software, is one of the main challenges that the creators of the Internet had to solve. This problem is solved with standardize protocols. In networking, a protocol is a standardize way of doing certain actions and formatting data so that two or more devices are able to communicate with and understand each other.
-
-
-There are protocols for sending packets between devices on the same network (Ethernet), for sending packets from network to network (IP), for ensuring those packets successfully arrive in order (TCP), and for formatting data for websites and applications (HTTP).
+                        Connecting two computers, both of which may use different hardware and run different software, is one of the main challenges that the creators of the Internet had to solve. This problem is solved with standardize protocols. In networking, a protocol is a standardize way of doing certain actions and formatting data so that two or more devices are able to communicate with and understand each other.
 
 
-What is Internet Protocol?
-
-Rules that Govern how information is sent from one computer to another computer over an internet connection. 
-
-The mapping of sharing information from one computer to another is done via a numeric code known as the IP address
-
-Types of IP Address 
-* Public IP address - Accessible to everyone over the net 
-* Private IP address - Assigned to devices over a private/closed network like a home or office. This is not accessible over the web. 
-
-What is Transport Control Protocol?
-
-Transport Control Protocol works with IP to ensure transfer of data is dependable, reliable and lossless. 
-
-Main Use of Transport Control Protocol :-
-* No Packets loss
-* No delay affecting data quality 
-* Packet organised in proper sequence 
+                        There are protocols for sending packets between devices on the same network (Ethernet), for sending packets from network to network (IP), for ensuring those packets successfully arrive in order (TCP), and for formatting data for websites and applications (HTTP).
 
 
-What physical infrastructure makes the Internet work?
+                        What is Internet Protocol?
 
-* Routers forward packets to different computer networks based on their destination.
-* Switches connect devices that share a single network. They use packet switching to forward packets to the correct devices.
-* Web servers are specialised high-powered computers that store and serve content (webpages, images, videos) to users, in addition to hosting applications and databases.
+                        Rules that Govern how information is sent from one computer to another computer over an internet connection. 
+
+                        The mapping of sharing information from one computer to another is done via a numeric code known as the IP address
+
+                        Types of IP Address 
+                        * Public IP address - Accessible to everyone over the net 
+                        * Private IP address - Assigned to devices over a private/closed network like a home or office. This is not accessible over the web. 
+
+                        What is Transport Control Protocol?
+
+                        Transport Control Protocol works with IP to ensure transfer of data is dependable, reliable and lossless. 
+
+                        Main Use of Transport Control Protocol :-
+                        * No Packets loss
+                        * No delay affecting data quality 
+                        * Packet organised in proper sequence 
 
 
-￼
- 
+                        What physical infrastructure makes the Internet work?
+
+                        * Routers forward packets to different computer networks based on their destination.
+                        * Switches connect devices that share a single network. They use packet switching to forward packets to the correct devices.
+                        * Web servers are specialised high-powered computers that store and serve content (webpages, images, videos) to users, in addition to hosting applications and databases.
+
+
+                        ￼
+                        
