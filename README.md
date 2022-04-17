@@ -49,9 +49,11 @@ Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chintzruparel&" alt="chintzruparel" /></p>
 
 Important Links for the blog 
-
-<a href="https://my-blog-chintz.digitalpress.blog/ghost">Blog Backend (Ghost)</a>
-<a href="https://my-blog-chintz.digitalpress.blog/author/chintan/">Author ID </a>
+<ul>
+  <li><a href="https://my-blog-chintz.digitalpress.blog/ghost">Blog Backend (Ghost)</a></li>
+<br>
+  <li><a href="https://my-blog-chintz.digitalpress.blog/author/chintan/">Author ID </a></li>
+</ul>  
                                                          
                                                      
 
