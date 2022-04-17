@@ -18,7 +18,7 @@ Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges
 
 - 👨‍💻 All of my projects are available at [Projects || Chintan Ruparel](https://chintanr-portfolio.netlify.app/)
 
-- 📝 I regularly write articles on [Blog || Chintan Ruparel](https://my-blog-chintz.digitalpress.blog/)
+- 📝 I regularly write articles on [the blog by Chintz Ruparel](https://my-blog-chintz.digitalpress.blog/)
 
 - 💬 Ask me about **Finance,Tech, Trading Softwares and API**
 
