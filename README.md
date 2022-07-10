@@ -1,12 +1,10 @@
 <h1 align="left">Hi 👋, I'm Chintz Ruparel</h1>
 <h2 align="left">A tech guy with finance as his core competency 🚀  </h2>
 
-
-
 Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges/ab5d5d66-1c14-476c-8cef-4ed02d232d3a/deploy-status)](https://app.netlify.com/sites/chintanr-portfolio/deploys)
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chintzruparel" alt="chintzruparel" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chintzruparel&theme=dracula&no-frame=true"  alt="chintzruparel" /></a> </p>
 
 
 
@@ -26,6 +24,8 @@ Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges
 
 - 📄 Know about my experiences [Blog || TWODS Capital](https://www.twodscapital.in/twods-blog.html)
 
+- 🏅 Check out [TWODS Capital](https://github.com/TWODS-CAPITAL)  on GitHub 
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/chintzruparel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="chintzruparel" height="30" width="40" /></a>
@@ -43,10 +43,15 @@ Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges
 
 
 
-[![Chintz's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChintzRuparel)](https://github.com/anuraghazra/github-readme-stats)
+[![Chintz's GitHub stats](https://github-readme-stats.vercel.app/api?username=ChintzRuparel&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 <br>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chintzruparel&" alt="chintzruparel" /></p>
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=ChintzRuparel&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+
+[![Chintz's github activity graph](https://activity-graph.herokuapp.com/graph?username=ChintzRuparel&theme=react-dark)](https://github.com/ChintzRuparel/github-readme-activity-graph)
+
+
 
 Important Links for the blog 
 <ul>
@@ -55,6 +60,5 @@ Important Links for the blog
   <li><a href="https://my-blog-chintz.digitalpress.blog/author/chintan/">Author ID </a></li>
 </ul>  
                                                          
-                                                     
-
-
+     
+     
