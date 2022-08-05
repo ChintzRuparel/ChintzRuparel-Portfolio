@@ -1,7 +1,6 @@
 <h1 align="left">Hi 👋, I'm Chintz Ruparel</h1>
 <h2 align="left">A tech guy with finance as his core competency 🚀  </h2>
 
-Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges/ab5d5d66-1c14-476c-8cef-4ed02d232d3a/deploy-status)](https://app.netlify.com/sites/chintanr-portfolio/deploys)
 
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chintzruparel&theme=dracula&no-frame=true"  alt="chintzruparel" /></a> </p>
@@ -49,7 +48,7 @@ Potfolio Website Live - [![Netlify Status](https://api.netlify.com/api/v1/badges
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=ChintzRuparel&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
-[![Chintz's github activity graph](https://activity-graph.herokuapp.com/graph?username=ChintzRuparel&theme=react-dark)](https://github.com/ChintzRuparel/github-readme-activity-graph)
+[![ChintzRuparel's github activity graph](https://activity-graph.herokuapp.com/graph?username=ChintzRuparel&bg_color=000000&color=ffffff&line=ffffff&point=ff0000&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
 
