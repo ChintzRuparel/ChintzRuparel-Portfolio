@@ -3,8 +3,7 @@
 
 
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chintzruparel&theme=dracula&no-frame=true"  alt="chintzruparel" /></a> </p>
-
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img width=1900 src="https://github-profile-trophy.vercel.app/?username=chintzruparel&&column=7&theme=gruvbox&no-frame=true"  alt="chintzruparel" /></a> </p>
 
 
 - 🔭 I’m currently working on [TWODS Capital](https://www.twodscapital.in/)
