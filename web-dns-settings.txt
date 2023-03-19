@@ -3,30 +3,4 @@ Just For Records
 NO REAL CONSEQUENCES 
 (Yet to Add Google Search Console Records)
 
-#1 
-chintanr.live     
-3600
-IN
-NETLIFY
-chintanr-portfolio.netlify.app
-
-#2
-www.chintanr.live
-3600
-IN
-NETLIFY
-chintanr-portfolio.netlify.app
-
-#3
-chintanr.live
-3600
-IN
-NETLIFYv6
-chintanr-portfolio.netlify.app
-
-#4
-www.chintanr.live
-3600
-IN
-NETLIFYv6
-chintanr-portfolio.netlify.app
+Removed     
