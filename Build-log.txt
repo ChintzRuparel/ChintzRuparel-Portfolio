@@ -1,26 +1,28 @@
-11:28:43 AM: build-image version: d7b3813f01c06610bc1723ff1b22446513ee7941 (focal)
-11:28:43 AM: build-image tag: v4.14.3
-11:28:43 AM: buildbot version: cb726a7d84489edcdcb2d3f1ed45076ec8d9f569
-11:28:43 AM: Fetching cached dependencies
-11:28:43 AM: Starting to download cache of 14.8MB
-11:28:43 AM: Finished downloading cache in 523.788621ms
-11:28:43 AM: Starting to extract cache
-11:28:43 AM: Finished extracting cache in 20.195448ms
-11:28:43 AM: Finished fetching cache in 578.451669ms
-11:28:43 AM: Starting to prepare the repo for build
-11:28:43 AM: Preparing Git Reference refs/heads/main
-11:28:44 AM: Parsing package.json dependencies
-11:28:45 AM: No build steps found, continuing to publishing
-11:28:45 AM: Starting to deploy site from '/'
-11:28:45 AM: Creating deploy tree 
-11:28:45 AM: Creating deploy upload records
-11:28:45 AM: 0 new files to upload
-11:28:45 AM: 0 new functions to upload
-11:28:45 AM: Uploading Cache of size 12.8MB
-11:28:45 AM: Starting post processing
-11:28:45 AM: Post processing - HTML
-11:28:45 AM: Post processing - header rules
-11:28:45 AM: Finished processing build request in 2.707953024s
-11:28:45 AM: Post processing - redirect rules
-11:28:45 AM: Post processing done
-11:28:48 AM: Site is live ✨
+7:37:53 PM: build-image version: 2eaac833881accc211f920f6c5a9f4121fdb15ab (focal)
+7:37:53 PM: buildbot version: 2eaac833881accc211f920f6c5a9f4121fdb15ab
+7:37:53 PM: Fetching cached dependencies
+7:37:53 PM: Starting to download cache of 11.0MB
+7:37:53 PM: Finished downloading cache in 133ms
+7:37:53 PM: Starting to extract cache
+7:37:53 PM: Finished extracting cache in 19ms
+7:37:53 PM: Finished fetching cache in 190ms
+7:37:53 PM: Starting to prepare the repo for build
+7:37:53 PM: Preparing Git Reference refs/heads/main
+7:37:54 PM: Parsing package.json dependencies
+7:37:55 PM: No build steps found, continuing to publishing
+7:37:55 PM: Starting to deploy site from '/'
+7:37:55 PM: Calculating files to upload
+7:37:55 PM: 1 new files to upload
+7:37:55 PM: 0 new functions to upload
+7:37:55 PM: Section completed: deploying
+7:37:55 PM: Section completed: building
+7:37:55 PM: Uploading Cache of size 11.0MB
+7:37:55 PM: Starting post processing
+7:37:55 PM: Post processing - HTML
+7:37:55 PM: Post processing - header rules
+7:37:55 PM: Section completed: cleanup
+7:37:55 PM: Finished processing build request in 2.608s
+7:37:55 PM: Post processing - redirect rules
+7:37:55 PM: Post processing done
+7:37:56 PM: Section completed: postprocessing
+7:37:56 PM: Site is live ✨
