@@ -16,6 +16,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <!--End of Boostrap Include Files-->
+
+    <!-- Google fonts  -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 <!-- 
     <style>
       .col{
@@ -29,32 +36,72 @@
 
     <!-- favicon link tag  -->
     <link rel="icon" type="image/x-icon" href="/images/chintanrlogo.png">
-    
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <a style="font-family: 'Source Sans 3', sans-serif;" class="navbar-brand" href="/index.html">
-            <img src="https://cdn-icons-png.flaticon.com/512/2160/2160251.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Chintan Ruparel 
-          </a>
 
 
-         
-          
-    <ul class="nav">
 
-        <li class="nav-item">
-        <a style="font-family: 'Source Sans 3', sans-serif;"  class="nav-link" href="/projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-        <a style="font-family: 'Source Sans 3', sans-serif;"  class="nav-link" href="https://my-blog-chintz.digitalpress.blog/">the blog</a>
-        </li>
-    </ul>
+<!-- navigation bar code -->
 
-          <span   class="navbar-text">
-            "Design is intelligence made visible"
-          </span>
-        </div>
-      </nav>
+
+
+
+ 
+<style>
+  .container{
+  display: inline-block;
+  width: 90%;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    animation: 
+      typing 7s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  
+</style>
+<title>Chintan Ruparel</title>
+
+
+<nav style="font-family: 'Poppins', sans-serif;" class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/images/icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        Chintan Ruparel 
+      </a>
+      
+<ul class="nav">
+
+    <li class="nav-item">
+    <a  class="nav-link" href="/projects.html"> Projects </a>
+    </li>
+    <li class="nav-item">
+    <a   class="nav-link" href="https://my-blog-chintz.digitalpress.blog/"> the blog </a>
+    </li>
+</ul>
+
+      <span   class="navbar-text">
+        "Design is intelligence made visible"
+      </span>
+    </div>
+  </nav>
+
+  <link rel="icon" type="image/x-icon" href="/images/chintanrlogo.png">
+
+
+
+
+
+
+
+
+
 
       <style>
       </style>
@@ -65,16 +112,79 @@
 
 <center>
     <img style="width:400px ; height: 400px;" src="/images/undraw_code_thinking_re_gka2.svg"    
-  <center>       
-  
+  <center>  
 
-  
+
+
+  <h1>Artificial Intelligence Models</h1>
+  <p>Some of the codes which were developed on Google Colaboratory code in Python and IDE used was Google Colaboratory</p>
+  <div style="width: 77%;" class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          
+          <img height="300px" width="300px" src="/images/recommendation-engine.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Movie Recommendation Engine</b></h5>
+            <p class="card-text">A Machine Learning based Movie Recommendation System. This kind off replicates the flow of how major streaming services like Netflix, Hotstar etc. recommend it's users new shows based on previous data.</p>
+            <button style=" border-radius: 30px;" type="button" class="btn btn-primary">
+              <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Movie-Recommendation-Engine">
+              Check On Github
+            </a></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img height="300px" width="300px" src="/images/equity-price-preds.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Equity Trend Prediction Using Machine Learning</b></h5>
+            <p class="card-text">Equity Price Prediction using Linear Regression and KNN on multiple equity datasets fetched from the exchnges.             </p>
+            <button style=" border-radius: 30px;" type="button" class="btn btn-primary">
+              <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Price-Prediction-Using-ML">
+              Check On Github
+            </a></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img height="300px" width="300px" src="images/pneumonia-detect.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"><b>Pneumonia Detection</b></h5>
+            <p class="card-text"> Pneumonia remains a leading cause of morbidity
+              and mortality worldwide. Our approach integrates two key components: a 2D
+              convolutional neural network (CNN) architecture and computer
+              vision (CV) techniques. CNNs are renowned for their ability to
+              effectively capture intricate spatial dependencies in images,
+              making them well-suited for medical image analysis tasks.            </p>
+            <button style=" border-radius: 30px;" type="button" class="btn btn-primary" >
+              <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Pneumonia-Detection">
+              Check On Github
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+<br><br>
+
+
+          </div>
+        </div>
+      </div>
+
+    
+    
     <center>
 
       <h1>UI Designs</h1>
       <p>These are Concept UI's made and designed by me</p>
 
       <center>
+
+
 
       <div style="width: 77%;" class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
@@ -364,17 +474,13 @@
   </div>
 
 
-
-<br><br>
-
-
-  <h1>Jupyter NoteBook Projects</h1>
+  <h1>Artificial Intelligence Models</h1>
   <p>Some of the codes which were developed on Google Colaboratory code in Python and IDE used was Google Colaboratory</p>
   <div style="width: 77%;" class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card h-100">
           
-          <img height="300px" width="300px" src="/images/Reco_engine .png" class="card-img-top" alt="...">
+          <img height="300px" width="300px" src="/images/recommendation-engine.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title"><b>Movie Recommendation Engine</b></h5>
             <p class="card-text">A Machine Learning based Movie Recommendation System. This kind off replicates the flow of how major streaming services like Netflix, Hotstar etc. recommend it's users new shows based on previous data.</p>
@@ -388,10 +494,10 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img height="300px" width="300px" src="/images/ml_price.png" class="card-img-top" alt="...">
+          <img height="300px" width="300px" src="/images/equity-price-preds.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><b>Price Prediction Using Machine Learning</b></h5>
-            <p class="card-text">Stock Market Prediction using Linear Regression and KNN using the Tata Global Company Stock Price Dataset.            </p>
+            <h5 class="card-title"><b>Equity Trend Prediction Using Machine Learning</b></h5>
+            <p class="card-text">Equity Price Prediction using Linear Regression and KNN on multiple equity datasets fetched from the exchnges.             </p>
             <button style=" border-radius: 30px;" type="button" class="btn btn-primary">
               <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Price-Prediction-Using-ML">
               Check On Github
@@ -402,17 +508,26 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img height="300px" width="300px" src="/images/color-pal.png" class="card-img-top" alt="...">
+          <img height="300px" width="300px" src="images/pneumonia-detect.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"><b>Color Quantity Detetctor</b></h5>
-            <p class="card-text">The main purpose of the ‘Color Quantity Detector’ is the find the color which is most dominant in the assigned image. This works on KNN clustering Algorithm.            </p>
+            <h5 class="card-title"><b>Pneumonia Detection</b></h5>
+            <p class="card-text"> Pneumonia remains a leading cause of morbidity
+              and mortality worldwide. Our approach integrates two key components: a 2D
+              convolutional neural network (CNN) architecture and computer
+              vision (CV) techniques. CNNs are renowned for their ability to
+              effectively capture intricate spatial dependencies in images,
+              making them well-suited for medical image analysis tasks.            </p>
             <button style=" border-radius: 30px;" type="button" class="btn btn-primary" >
-              <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Colour-Quantity-Detector">
+              <a style="font-size: 12px; color: white ; text-decoration: none;" href="https://github.com/ChintzRuparel/Pneumonia-Detection">
               Check On Github
             </a>
           </div>
         </div>
       </div>
+
+
+<br><br>
+
 
           </div>
         </div>
@@ -637,7 +752,7 @@ color: #2f2f2f;
         </li>
         
         <li>
-          <a href="https://wa.link/m4uyt5">Whatsapp 💬</a>
+          <a href="https://www.linkedin.com/in/chintan-ruparel-5a5204223/">Linkedin 🎓</a>
         </li>
       </ul>
     </li>
@@ -655,7 +770,7 @@ color: #2f2f2f;
         </li>
         
         <li>
-          <a href="https://github.com/ChintzRuparel/CloneStagram">CloneStagram 🤖</a>
+          <a href="https://github.com/ChintzRuparel/Pneumonia-Detection">Pneumonia Detection ⚕️</a>
         </li>
       </ul>
     </li>
